@@ -12,5 +12,16 @@ namespace Scrabble.Controllers
       {
         return View();
       }
+
+      [HttpPost("/Result")]
+      public ActionResult Score()
+      {
+        Game newGame = new Game();
+        if (newGame.ValidateInput(Request.Form["user-word"]))
+        {
+          newGame.SetScore(Request.Form["user-word"]);
+        }
+        return View("Score", newGame);
+      }
     }
 }

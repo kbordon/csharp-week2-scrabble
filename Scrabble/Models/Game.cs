@@ -23,7 +23,7 @@ namespace Scrabble.Models
     }
 
     public int  GetScore() {return _score;}
-    public bool ValidateScore(string green)
+    public bool ValidateInput(string green)
     {
       foreach (char g in green)
       {
@@ -62,7 +62,6 @@ namespace Scrabble.Models
           }
         }
       }
-      Console.WriteLine(_score);
     }
   }
 }

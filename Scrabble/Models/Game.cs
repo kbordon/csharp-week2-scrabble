@@ -8,6 +8,8 @@ namespace Scrabble.Models
   {
     static private char[][] _scoreSheet = new char[7][];
     private int _score;
+    private List<char> _userWord = new List<char>{};
+    private List<int> _letterScore = new List<int>{};
 
     public Game()
     {
@@ -22,7 +24,15 @@ namespace Scrabble.Models
       _score=0;
     }
 
-    public int  GetScore() {return _score;}
+    public int GetScore() {return _score;}
+    public List<char> GetUserWord()
+    {
+      return _userWord;
+    }
+    public List<int> GetLetterScore()
+    {
+      return _letterScore;
+    }
     public bool ValidateInput(string green)
     {
       foreach (char g in green)
@@ -32,6 +42,11 @@ namespace Scrabble.Models
           return false;
         }
       }
+      foreach (char g in green.ToUpper())
+      {
+        _userWord.Add(g);
+      }
+      // _userWord = green;
       return true;
     }
     public void SetScore(string green)
@@ -49,14 +64,17 @@ namespace Scrabble.Models
               if (i==5)
               {
                 _score=_score+8;
+                _letterScore.Add(8);
               }
               if (i==6)
               {
                 _score=_score+10;
+                _letterScore.Add(10);
               }
               if(i<5 && i>=0)
               {
                 _score=_score+(i+1);
+                _letterScore.Add(i+1);
               }
             }
           }

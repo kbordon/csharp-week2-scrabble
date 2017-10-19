@@ -1,7 +1,19 @@
 @{
   Layout = "_Layout";
 }
-
-<h2>Your Score is: @Model.GetScore()</h2>
-
-<a href="/"><button type="button" class="btn btn-custom">Try Again</button></a>
+@* <h1>@ViewBag.Word</h1> *@
+@* <h1>@Model.GetUserWord()</h1> *@
+<div class="row">
+  <div class="col-lg-12">
+    @for(int i = 0; i < Model.GetUserWord().Count; i++)
+    {
+      <div class="tile">@Model.GetUserWord()[i] <span class="score">@Model.GetLetterScore()[i]</span></div>
+    }
+  </div>
+</div>
+<div class="row">
+  <div class="col-lg-12">
+    <h2>Your Score is: @Model.GetScore()</h2>
+    <a href="/"><button type="button" class="btn btn-custom">Try Again</button></a>
+  </div>
+</div>

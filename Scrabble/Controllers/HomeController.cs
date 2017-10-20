@@ -17,7 +17,6 @@ namespace Scrabble.Controllers
       public ActionResult Score()
       {
         Game newGame = new Game();
-        Console.WriteLine(newGame.GetUserWord());
         if (newGame.ValidateInput(Request.Form["user-word"]))
         {
           newGame.SetScore(Request.Form["user-word"]);

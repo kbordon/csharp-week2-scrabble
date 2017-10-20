@@ -1,8 +1,11 @@
 @{
   Layout = "_Layout";
 }
-    <form class="game" action="/Result" method="post">
-      <label="user-word">Enter in a word, and receive a score:</label>
-      <input type="text" name="user-word" id="user-word">
-      <button type="submit" class="btn-lg btn-custom">Score me!</button>
-    </form>
+
+<form action="/Result" method="post">
+    <div class="form-group">
+        <label="user-word"><h2>Enter in a word, and receive a score:</h2></label>
+        <input type="text" name="user-word" id="user-word">
+    </div>
+    <button type="submit" class="btn-lg btn-custom">Score me!</button>
+</form>

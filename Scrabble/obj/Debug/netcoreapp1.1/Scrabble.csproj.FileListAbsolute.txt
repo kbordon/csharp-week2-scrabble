@@ -6,3 +6,12 @@
 /Users/Guest/Desktop/Scrabble/Scrabble/bin/Debug/netcoreapp1.1/Scrabble.pdb
 /Users/Guest/Desktop/Scrabble/Scrabble/obj/Debug/netcoreapp1.1/Scrabble.dll
 /Users/Guest/Desktop/Scrabble/Scrabble/obj/Debug/netcoreapp1.1/Scrabble.pdb
+C:\Users\Kimberly\desktop\epicodus\csharp\week2\csharp-week2-scrabble\scrabble\bin\Debug\netcoreapp1.1\Scrabble.deps.json
+C:\Users\Kimberly\desktop\epicodus\csharp\week2\csharp-week2-scrabble\scrabble\bin\Debug\netcoreapp1.1\Scrabble.runtimeconfig.json
+C:\Users\Kimberly\desktop\epicodus\csharp\week2\csharp-week2-scrabble\scrabble\bin\Debug\netcoreapp1.1\Scrabble.runtimeconfig.dev.json
+C:\Users\Kimberly\desktop\epicodus\csharp\week2\csharp-week2-scrabble\scrabble\bin\Debug\netcoreapp1.1\Scrabble.dll
+C:\Users\Kimberly\desktop\epicodus\csharp\week2\csharp-week2-scrabble\scrabble\bin\Debug\netcoreapp1.1\Scrabble.pdb
+C:\Users\Kimberly\desktop\epicodus\csharp\week2\csharp-week2-scrabble\scrabble\obj\Debug\netcoreapp1.1\Scrabble.csproj.CoreCompileInputs.cache
+C:\Users\Kimberly\desktop\epicodus\csharp\week2\csharp-week2-scrabble\scrabble\obj\Debug\netcoreapp1.1\Scrabble.AssemblyInfo.cs
+C:\Users\Kimberly\desktop\epicodus\csharp\week2\csharp-week2-scrabble\scrabble\obj\Debug\netcoreapp1.1\Scrabble.dll
+C:\Users\Kimberly\desktop\epicodus\csharp\week2\csharp-week2-scrabble\scrabble\obj\Debug\netcoreapp1.1\Scrabble.pdb

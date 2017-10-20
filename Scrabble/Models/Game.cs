@@ -51,8 +51,6 @@ namespace Scrabble.Models
     }
     public void SetScore(string green)
     {
-      Console.WriteLine(green);
-
       foreach (char g in green) // itterates through each char in passed string
       {
         for (int i = 0; i < _scoreSheet.Length; i++) //itterates through each arrray in _scoreSheet
